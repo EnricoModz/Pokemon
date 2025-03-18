@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universos de Animes: Pokémon, Naruto e Dragon Ball</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Universos de Animes: Pokémon, Naruto e Dragon Ball</h1>
+    </header>
+
+    <nav>
+        <a href="#pokemon">Pokémon</a>
+        <a href="#naruto">Naruto</a>
+        <a href="#dragonball">Dragon Ball</a>
+    </nav>
+
+    <section id="pokemon">
+        <h2>Pokémon</h2>
+        <div class="content">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
+                <h3>Pikachu</h3>
+                <p>Pikachu é o Pokémon mascote, tipo elétrico, famoso por suas habilidades elétricas e presença na cultura pop.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Charizard">
+                <h3>Charizard</h3>
+                <p>Charizard, tipo Fogo/Voador, é conhecido por suas batalhas intensas e sua poderosa cauda flamejante.</p>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+                <h3>Bulbasaur</h3>
+                <p>Bulbasaur é o primeiro Pokémon inicial, do tipo Planta/Venenoso, famoso por suas habilidades estratégicas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="naruto">
+        <h2>Naruto</h2>
+        <div class="content">
+            <div class="card">
+                <img src="https://example.com/naruto.png" alt="Naruto Uzumaki">
+                <h3>Naruto Uzumaki</h3>
+                <p>Naruto busca se tornar Hokage, enfrentando desafios com coragem e determinação, usando técnicas ninja únicas.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/sasuke.png" alt="Sasuke Uchiha">
+                <h3>Sasuke Uchiha</h3>
+                <p>Sasuke é o rival de Naruto, com um passado sombrio, buscando vingança e força para proteger o que ama.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/sakura.png" alt="Sakura Haruno">
+                <h3>Sakura Haruno</h3>
+                <p>Sakura evolui de uma ninja subestimada para uma curandeira formidável, mostrando força e resiliência.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dragonball">
+        <h2>Dragon Ball</h2>
+        <div class="content">
+            <div class="card">
+                <img src="https://example.com/goku.png" alt="Goku">
+                <h3>Goku</h3>
+                <p>Goku é o herói Saiyajin, sempre em busca de desafios, melhorando sua força e protegendo o universo.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/vegeta.png" alt="Vegeta">
+                <h3>Vegeta</h3>
+                <p>Vegeta, príncipe dos Saiyajins, passa de rival a aliado, sempre buscando superar Goku com sua determinação.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/gohan.png" alt="Gohan">
+                <h3>Gohan</h3>
+                <p>Gohan combina poder e coração, superando limites em momentos críticos, como durante a luta contra Cell.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Universo dos Animes</p>
+    </footer>
+</body>
+</html>
